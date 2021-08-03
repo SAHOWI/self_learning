@@ -7,6 +7,7 @@ Have fun!
 
 ## Branches
 
+### Create a Branch and make it active
 I created a new branch "acceptance" and switch into it by 
 
 ```bash
@@ -18,6 +19,7 @@ git push --set-upstream origin acceptance
 
 and updated the README.md inside of this branch.
 
+### Merge Branches
 To merge the changes back to "main" simply do the following:
 ```bash
 git switch main
@@ -29,3 +31,9 @@ Fast-forward
  1 file changed, 12 insertions(+)
 git push
 ```
+
+### Rename a Branch local and remote
+
+![How to rename a Branch](images/rename_a_branch_1.png)
+
+
